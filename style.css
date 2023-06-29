@@ -30,16 +30,18 @@ body{
 
 }
 .blurb{
-    margin-top: 20%;
-    margin-bottom: 8%;
-    padding:3%;
+    padding:10%;
+    font-size: 20px;
+    width: 70%;
 }
 /* flex wouldn't work here to make two columns because the child of class form is the form itself, not the column*/
 .form{
-    padding:3%;
+    padding-left:8%;
+    padding-right:8%;
     background-color: #d8d3ba;
-    box-shadow:0px 3px rgb(43, 65, 33);
-    margin-bottom:5%;
+    box-shadow:0px 3px #ada88e;
+    padding-top:3%;
+    padding-bottom: 5%;
   
 }
 fieldset{
@@ -47,14 +49,20 @@ fieldset{
     width:100%;
     display:flex;
 }
+legend{
+    font-size: 20px;
+    padding-bottom: 2%;
+}
 .left_column{
     width:40%;
-    padding:5%;
+   
+    padding-right:5%;
 }
 
 .right_column{
     width:40%;
-    padding:5%
+   
+    padding-right: 5%;
 }
 
 .input_request{
@@ -68,11 +76,19 @@ label{
 }
 
 button{
-    margin:3%;
+    margin-left:10%;
+    margin-top: 3%;
+    padding: 2%;
     width:30%;
+    border-style: none;
+    background-color:#410C0C;
+    opacity:0.8;
+    color:#d8d3ba;
+    box-shadow:2px 3px #180101;
 }
 
 
 .already_signed_up{
-    margin:3%;
+    margin-left:10%;
+    margin-top: 2%;
 }
