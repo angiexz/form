@@ -1,12 +1,15 @@
 body{
     display:flex;
     margin: 0;
+    overflow: hidden;
 }
 .left{
     position:relative;
+    height: 717px;
 }
 .background_image{
     position:relative;
+    height:717px;
 }
 .flow_free_banner{
     display: flex;
